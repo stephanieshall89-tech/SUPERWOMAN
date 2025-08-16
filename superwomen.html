@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workbook: Unmasking the Strong Black Woman</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #fdfaf6;
+            color: #333;
+        }
+        h1, h2, h3 {
+            font-family: 'Lora', serif;
+        }
+        .workbook-container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+        }
+        .chapter-header {
+            border-bottom: 2px solid #e5d9ce;
+            padding-bottom: 1rem;
+            margin-bottom: 2rem;
+        }
+        .prompt-section {
+            margin-bottom: 2.5rem;
+        }
+        .prompt-title {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: #5c5470;
+            margin-bottom: 0.75rem;
+        }
+        .prompt-description {
+            font-size: 0.95rem;
+            color: #6b7280;
+            margin-bottom: 1rem;
+            font-style: italic;
+        }
+        textarea, input[type="text"] {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            border-radius: 8px;
+            border: 1px solid #d1d5db;
+            background-color: #f9fafb;
+            transition: border-color 0.3s, box-shadow 0.3s;
+            font-size: 1rem;
+        }
+        textarea:focus, input[type="text"]:focus {
+            outline: none;
+            border-color: #a78bfa;
+            box-shadow: 0 0 0 3px rgba(167, 139, 250, 0.2);
+        }
+        textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+        .action-step {
+            background-color: #f3e8ff;
+            border-left: 4px solid #a855f7;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-top: 1.5rem;
+        }
+        .action-step-title {
+            font-weight: 700;
+            color: #6b21a8;
+        }
+        .weekly-review-page {
+            background-color: #faf5ff;
+            padding: 2rem;
+            border-radius: 12px;
+            border: 1px dashed #d8b4fe;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="workbook-container">
+        <header class="text-center mb-12">
+            <h1 class="text-4xl font-bold text-purple-800">Unmasking the Strong Black Woman</h1>
+            <p class="text-xl text-gray-500 mt-2">An Interactive Healing Guide</p>
+        </header>
+
+        <!-- Chapter 1 -->
+        <section id="chapter1">
+            <div class="chapter-header">
+                <h2 class="text-3xl font-semibold text-gray-800">Chapter 1: The Myth of the Strong Black Woman</h2>
+            </div>
+
+            <div class="prompt-section">
+                <h3 class="prompt-title">Reflection Journal</h3>
+                
+                <label for="pressure-moment" class="prompt-description block">When did you first feel the pressure to “be strong”? Describe the moment, who was involved, and how it shaped you.</label>
+                <textarea id="pressure-moment" placeholder="Type your reflection here..."></textarea>
+            </div>
+
+            <div class="prompt-section">
+                <label for="role-model" class="prompt-description block">Who modeled the Strong Black Woman role for you? What phrases, actions, or lessons from them still live in your mind today?</label>
+                <textarea id="role-model" placeholder="Type your reflection here..."></textarea>
+            </div>
+
+            <div class="prompt-section">
+                <label for="hidden-emotions" class="prompt-description block">What emotions do you hide most often to maintain the image of strength, and how does hiding them impact your relationships?</label>
+                <textarea id="hidden-emotions" placeholder="Type your reflection here..."></textarea>
+            </div>
+
+            <div class="prompt-section">
+                <h3 class="prompt-title">Myth vs. Truth Exercise</h3>
+                <p class="prompt-description">Write down 3 beliefs you’ve been taught about being a “strong” woman. Next to each, write the truth that aligns with your emotional, mental, and physical health. <br><em>Example: Myth — “Strong women don’t cry.” Truth — “Crying is a natural and healthy release.”</em></p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="font-semibold text-gray-600 mb-2 block text-center">Myth</label>
+                        <input type="text" placeholder="Myth 1..." class="mb-4">
+                        <input type="text" placeholder="Myth 2..." class="mb-4">
+                        <input type="text" placeholder="Myth 3...">
+                    </div>
+                    <div>
+                        <label class="font-semibold text-gray-600 mb-2 block text-center">Truth</label>
+                        <input type="text" placeholder="Truth 1..." class="mb-4">
+                        <input type="text" placeholder="Truth 2..." class="mb-4">
+                        <input type="text" placeholder="Truth 3...">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="action-step">
+                <h4 class="action-step-title">Action Step</h4>
+                <label for="action-step-1" class="prompt-description block mt-2">Identify one situation this week where you will choose authenticity over performative strength. Journal how it felt before, during, and after.</label>
+                <textarea id="action-step-1" placeholder="Describe the situation and your feelings..."></textarea>
+            </div>
+        </section>
+
+        <!-- Chapter 2 -->
+        <section id="chapter2" class="mt-16">
+            <div class="chapter-header">
+                <h2 class="text-3xl font-semibold text-gray-800">Chapter 2: Boundaries Are Not Betrayal</h2>
+            </div>
+
+            <div class="prompt-section">
+                <h3 class="prompt-title">Boundary Mapping</h3>
+                <p class="prompt-description">Draw a circle representing your life. List things that drain you outside the circle, and what you want to protect inside.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label for="drains-you" class="font-semibold text-gray-600 mb-2 block text-center">Outside (What Drains You)</label>
+                        <textarea id="drains-you" placeholder="e.g., Unpaid labor, negative people, over-committing..."></textarea>
+                    </div>
+                    <div>
+                        <label for="protects-you" class="font-semibold text-gray-600 mb-2 block text-center">Inside (What You Protect)</label>
+                        <textarea id="protects-you" placeholder="e.g., Peace, rest, health, joy, relationships, creativity..."></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prompt-section">
+                <h3 class="prompt-title">Boundary Script Practice</h3>
+                <p class="prompt-description">Fill in the blanks to practice your boundary-setting language.</p>
+                <div class="space-y-4">
+                    <p>“I’m not available for <input type="text" class="inline-block w-48 mx-2" placeholder="activity"> because <input type="text" class="inline-block w-48 mx-2" placeholder="reason">.”</p>
+                    <p>“That doesn’t work for me right now because <input type="text" class="inline-block w-48 mx-2" placeholder="reason">.”</p>
+                    <p>“I can’t give to that without <input type="text" class="inline-block w-48 mx-2" placeholder="sacrificing something">.”</p>
+                    <p>“I appreciate you thinking of me, but <input type="text" class="inline-block w-48 mx-2" placeholder="I must decline">.”</p>
+                </div>
+            </div>
+
+            <div class="prompt-section">
+                <h3 class="prompt-title">Self-Check</h3>
+                <label for="boundary-feelings" class="prompt-description block">After setting a boundary, do you feel guilty, relieved, proud, or anxious? What does this tell you about your current boundary comfort level?</label>
+                <textarea id="boundary-feelings" placeholder="Reflect on your feelings..."></textarea>
+            </div>
+
+            <div class="action-step">
+                <h4 class="action-step-title">Boundary Challenge</h4>
+                <p class="prompt-description mt-2">This week, practice stating a boundary in a low-stakes situation to build confidence.</p>
+            </div>
+        </section>
+
+        <!-- Chapter 3 -->
+        <section id="chapter3" class="mt-16">
+            <div class="chapter-header">
+                <h2 class="text-3xl font-semibold text-gray-800">Chapter 3: Reclaiming Softness in a Hard World</h2>
+            </div>
+            
+            <div class="prompt-section">
+                <h3 class="prompt-title">Softness Reconnection List</h3>
+                <p class="prompt-description">List 5 activities that make you feel tender, cared for, or emotionally open.</p>
+                <div class="space-y-3">
+                    <input type="text" placeholder="1. e.g., Listening to a love song...">
+                    <input type="text" placeholder="2.">
+                    <input type="text" placeholder="3.">
+                    <input type="text" placeholder="4.">
+                    <input type="text" placeholder="5.">
+                </div>
+            </div>
+
+            <div class="prompt-section">
+                <h3 class="prompt-title">Inner Child Letter</h3>
+                <label for="inner-child-letter" class="prompt-description block">Write a letter to your younger self, telling her it’s safe to be soft now. Include things you wish she had heard: reassurance, love, validation, and encouragement to feel.</label>
+                <textarea id="inner-child-letter" placeholder="Dear little me..."></textarea>
+            </div>
+
+            <div class="prompt-section">
+                <h3 class="prompt-title">Vulnerability Practice</h3>
+                <label for="vulnerability-practice" class="prompt-description block">Identify one person with whom you feel emotionally safe. Share one feeling, dream, or fear you’ve been holding back. Journal their response and how you felt afterward.</label>
+                <textarea id="vulnerability-practice" placeholder="I shared... They responded... I felt..."></textarea>
+            </div>
+            
+            <div class="action-step">
+                <h4 class="action-step-title">Softness in Daily Life</h4>
+                <p class="prompt-description mt-2">Commit to one small act of softness every day this week.</p>
+            </div>
+        </section>
+
+        <!-- Chapter 4 -->
+        <section id="chapter4" class="mt-16">
+            <div class="chapter-header">
+                <h2 class="text-3xl font-semibold text-gray-800">Chapter 4: Rest Is Resistance</h2>
+            </div>
+
+            <div class="prompt-section">
+                <h3 class="prompt-title">Rest Audit</h3>
+                <label for="rest-audit" class="prompt-description block">Track your rest for 7 days — naps, sleep hours, downtime, moments of stillness. Note how your body, mood, and focus change.</label>
+                <textarea id="rest-audit" placeholder="Day 1: ... Day 2: ..."></textarea>
+            </div>
+
+            <div class="prompt-section">
+                <h3 class="prompt-title">Rest Ritual Plan</h3>
+                <p class="prompt-description">Design a morning and bedtime routine that supports rest.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label for="morning-routine" class="font-semibold text-gray-600 mb-2 block">Morning Routine</label>
+                        <textarea id="morning-routine" placeholder="e.g., 5-minute silence, stretching..."></textarea>
+                    </div>
+                    <div>
+                        <label for="bedtime-routine" class="font-semibold text-gray-600 mb-2 block">Bedtime Routine</label>
+                        <textarea id="bedtime-routine" placeholder="e.g., Screen-free hour, meditation, bath..."></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prompt-section">
+                <h3 class="prompt-title">Rest Permission Slip</h3>
+                <label for="rest-permission" class="prompt-description block">Write: “I give myself permission to rest because ______.” Fill in with at least 5 reasons.</label>
+                <textarea id="rest-permission" placeholder="1. I deserve it.&#10;2. My body needs it.&#10;3. ..."></textarea>
+            </div>
+
+            <div class="action-step">
+                <h4 class="action-step-title">Rest Boundaries</h4>
+                <p class="prompt-description mt-2">Decide one task or commitment you will pause or decline this week to prioritize rest.</p>
+            </div>
+        </section>
+
+        <!-- Chapter 5 -->
+        <section id="chapter5" class="mt-16">
+            <div class="chapter-header">
+                <h2 class="text-3xl font-semibold text-gray-800">Chapter 5: Learning to Receive Help Without Shame</h2>
+            </div>
+            
+            <div class="prompt-section">
+                <h3 class="prompt-title">Help Acceptance Tracker</h3>
+                <label for="help-tracker" class="prompt-description block">For one week, list every offer of help you receive. Mark if you accepted or declined. Journal the feelings that came up in both scenarios.</label>
+                <textarea id="help-tracker" placeholder="Offer: ... Accepted/Declined: ... Feelings: ..."></textarea>
+            </div>
+
+            <div class="prompt-section">
+                <h3 class="prompt-title">Support Network Map</h3>
+                <label for="support-map" class="prompt-description block">Draw your network of friends, family, professionals, and community resources. Circle the names you feel comfortable asking for help. Put a star next to those who have shown consistent reliability.</label>
+                <textarea id="support-map" placeholder="List your network here..."></textarea>
+            </div>
+
+            <div class="prompt-section">
+                <h3 class="prompt-title">Receiving Challenge</h3>
+                <label for="receiving-challenge" class="prompt-description block">Choose one need this week and intentionally ask someone for help. Journal how you felt before asking, how they responded, and how you felt after receiving.</label>
+                <textarea id="receiving-challenge" placeholder="Before: ... Response: ... After: ..."></textarea>
+            </div>
+            
+            <div class="prompt-section">
+                <h3 class="prompt-title">Reframing Help Exercise</h3>
+                <label for="reframing-help" class="prompt-description block">Write down what accepting help says about you in a positive light.</label>
+                <textarea id="reframing-help" placeholder="e.g., “It shows I trust others,” “It allows me to rest,” “It teaches my children healthy interdependence.”"></textarea>
+            </div>
+        </section>
+
+        <!-- Weekly Review -->
+        <section id="weekly-review" class="mt-16 weekly-review-page">
+            <h2 class="text-3xl font-semibold text-gray-800 text-center mb-8">Weekly Review</h2>
+
+            <div class="prompt-section">
+                <label for="biggest-insight" class="prompt-title block">What was my biggest insight this week?</label>
+                <textarea id="biggest-insight" placeholder="Type your reflection here..."></textarea>
+            </div>
+            
+            <div class="prompt-section">
+                <label for="resistance" class="prompt-title block">Where did I feel the most resistance to change?</label>
+                <textarea id="resistance" placeholder="Type your reflection here..."></textarea>
+            </div>
+
+            <div class="prompt-section">
+                <label for="next-step" class="prompt-title block">What’s one small, doable step I can take next week toward unmasking?</label>
+                <textarea id="next-step" placeholder="Type your reflection here..."></textarea>
+            </div>
+            
+            <div class="prompt-section">
+                <label for="support-source" class="prompt-title block">Who or what supported me most this week?</label>
+                <textarea id="support-source" placeholder="Type your reflection here..."></textarea>
+            </div>
+
+            <div class="prompt-section">
+                <label for="affirmation" class="prompt-title block">Affirmation to End the Week</label>
+                <p class="prompt-description">Write your own affirmation inspired by your progress and say it aloud every morning next week.</p>
+                <textarea id="affirmation" placeholder="e.g., I am worthy of rest and softness..."></textarea>
+            </div>
+        </section>
+
+    </div>
+
+</body>
+</html>
